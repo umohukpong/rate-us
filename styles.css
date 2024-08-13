@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    background-color: #141519; /* Dark background */
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the form */
+.feedback-container {
+    background-color: #212832; /* Darker gray for form background */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    text-align: left;
+    max-width: 300px;
+    width: 100%;
+}
+
+/* Star Icon */
+.star-icon {
+    font-size: 1.3rem;
+    color: #FA7816; /* Orange color for the star */
+    margin-bottom: 30px;
+    background-color: #272B37;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Header */
+.feedback-container h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #F9FEFF;
+    margin-bottom: 10px;
+}
+
+/* Form Description */
+.feedback-container p {
+    color: #6A717B;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    line-height: 1.3rem;
+}
+
+/* Rating Styles */
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+/* Hide radio inputs */
+.rating input[type="radio"] {
+    display: none;
+}
+
+/* Style the labels */
+.rating label {
+    background-color: #262F38; /* Dark gray circles */
+    color: #959EA7;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Change color on hover */
+.rating label:hover {
+    background-color: #52565e;
+}
+
+/* Change color when selected */
+.rating input[type="radio"]:checked + label {
+    background-color: #ff9500;
+    color: white;
+}
+
+/* Submit Button Styles */
+.submit-btn {
+    background-color: #FC7613; /* Orange color for the button */
+    color: #6D381D;
+    color: #352f2f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    letter-spacing: 0.1rem;
+}
+
+/* Button hover effect */
+.submit-btn:hover {
+    background-color: #e08600;
+}
+
+
